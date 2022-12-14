@@ -726,12 +726,12 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #ffffff;
   font-size: .8rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .work-content .w-like {
@@ -819,6 +819,33 @@ footer .credits {
   font-weight: 400;
   font-size: 13px;
 }
+
+
+/*ICONO DE WHATSAPP A LA DERECHA, FLOTANTE -*/
+
+.icon-whatsapp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  /*right: 30px;*/
+  left: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.icon-whatsapp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
 
 /*======================================
 //--//-->   BUTTON
@@ -960,3 +987,15 @@ footer .credits {
     bottom: 15px;
   }
 }
+
+
+
+
+/*
+
+#121111
+#faf8a2
+#f7f68fc
+#1e1e1e
+
+*/
