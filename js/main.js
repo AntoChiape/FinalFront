@@ -2,12 +2,13 @@
 	"use strict";
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
-  
+
   $('.navbar-toggler').on('click', function() {
     if( ! $('#mainNav').hasClass('navbar-reduce')) {
       $('#mainNav').addClass('navbar-reduce');
     }
   })
+
 
   // Preloader
   $(window).on('load', function () {
@@ -73,7 +74,7 @@
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
-		var pixels = 50; 
+		var pixels = 50;
 		var top = 1200;
 		if ($(window).scrollTop() > pixels) {
 			$('.navbar-expand-md').addClass('navbar-reduce');
@@ -101,17 +102,6 @@
 		});
 	}
 
-	/*--/ Testimonials owl /--*/
-	$('#testimonial-mf').owlCarousel({
-		margin: 20,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		responsive: {
-			0: {
-				items: 1,
-			}
-		}
-	});
+
 
 })(jQuery);
